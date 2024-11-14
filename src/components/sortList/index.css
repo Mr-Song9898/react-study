@@ -1,0 +1,37 @@
+
+.sort_list {
+  max-width: 300px;
+  margin: 0px auto;
+  background-color: #F7F7F7;
+  padding: 3em;
+}
+
+.sort_item {
+  padding: 1.5em;
+  margin: 0.5em 0em;
+  list-style-type: none;
+  border: 2px solid #CCC;
+  box-shadow: 3px 3px #AAA;
+  color: #333;
+  border-radius: 5px;
+  background: #fff;
+  cursor: grab;
+}
+
+.sort_item_drag {
+  background: #eee;
+  cursor: grabbing;
+}
+
+.sort_item_selected {
+  background: red;
+}
+
+.sort_item_handle {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: grab;
+  margin-right: 3em;
+}

@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.item {
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  min-height: 360px;
+}
+
+.item3 {
+  position: relative;
+  z-index: 999;
+  background: #fff;
+  color: red;
+}
+
+.mask {
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0009;
+  opacity: 0.6;
+  z-index: 998;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.mask-content {
+  position: relative;
+  border: 2px solid red;
+}
+
+.mask-tip {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.mask-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+  color: #fff;
+}

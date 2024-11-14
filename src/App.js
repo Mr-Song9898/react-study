@@ -18,6 +18,10 @@ import TestCompSuspense from "./components/testCompSuspense";
 import TestApi from "./API";
 import TestLazy from "./API/lazy";
 import TestRef from "./components/testRef";
+import SortList from "./components/sortList";
+import EchartsTest from "./components/echartsTest";
+import ZIndex from "./components/zIndex";
+import Ref from "./components/ref";
 
 // function App() {
 //   return (
@@ -65,12 +69,16 @@ function App() {
   // return <TestUseSyncExternalStore />
   // return <TestUseTransition />
   // return <TestUseDeferredValue />
-  return <TestUerContextAdv />
+  // return <TestUerContextAdv />
   // return <TestCompProfiler />
   // return <TestCompStrictMode list={[1]} />
   // return <TestCompSuspense />
   // return <TestLazy />
   // return <TestRef />;
+  // return <SortList />
+  // return <EchartsTest />
+  // return <ZIndex />
+  return <Ref />
 }
 
 export default App;

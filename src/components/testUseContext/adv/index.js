@@ -10,6 +10,8 @@ function TestUerContextAdv() {
 
   const addTask = renderToStaticMarkup(<AddTask />);
 
+  console.log('addTask ', addTask);
+
   return (
     <TasksProvider>
       <h3>useContext 进阶用法</h3>
