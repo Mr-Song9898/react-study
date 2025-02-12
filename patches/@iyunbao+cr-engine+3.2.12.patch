@@ -1,0 +1,13 @@
+diff --git a/node_modules/@iyunbao/cr-engine/lib/utils/validates.js b/node_modules/@iyunbao/cr-engine/lib/utils/validates.js
+index 32f2c7e..517864c 100644
+--- a/node_modules/@iyunbao/cr-engine/lib/utils/validates.js
++++ b/node_modules/@iyunbao/cr-engine/lib/utils/validates.js
+@@ -37,7 +37,7 @@ function idCard(value) {
+ /**
+  * 身份证白名单 ISSUES-31739 爆出身份证就是不合规
+  */
+-var idCardWhiteList = exports.idCardWhiteList = ['210112200506110046'];
++var idCardWhiteList = exports.idCardWhiteList = [''];
+ 
+ /**
+  * form rules 全局规则

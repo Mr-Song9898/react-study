@@ -22,7 +22,10 @@ import SortList from "./components/sortList";
 import EchartsTest from "./components/echartsTest";
 import ZIndex from "./components/zIndex";
 import Ref from "./components/ref";
+// import OnePx from "./components/onepx";
+import { utils } from '@iyunbao/cr-engine';
 
+console.log('utils ', utils);
 // function App() {
 //   return (
 //     <ErrorBoundary />
@@ -79,6 +82,7 @@ function App() {
   // return <EchartsTest />
   // return <ZIndex />
   return <Ref />
+  // return <OnePx />
 }
 
 export default App;
