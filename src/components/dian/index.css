@@ -1,0 +1,9 @@
+.body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background: rgb(247, 250, 252);
+  padding-top: 10px;
+  /* overflow: hidden; */
+}

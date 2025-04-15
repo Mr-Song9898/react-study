@@ -1,0 +1,17 @@
+.chart {
+  padding: 12px;
+  /* border: 1px solid #e8e8e8;
+  background: blanchedalmond; */
+}
+
+.chart-title {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.unit label::after {
+  content: ':';
+  margin-left: 2px;
+  margin-right: 6px;
+}

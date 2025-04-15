@@ -1,0 +1,40 @@
+.titleContainer {
+  margin: 0 15px;
+  padding: 20px 18px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  color: #666;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.btn {
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: #888
+}
+
+.labelValue {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.labelValue > label::after {
+  content: ':';
+  margin-left: 2px;
+  margin-right: 6px;
+}
+
+.address {
+  font-size: 14px;
+}

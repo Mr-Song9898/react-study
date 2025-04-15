@@ -1,0 +1,19 @@
+.tabContainer {
+
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.activeTab {
+  font-weight: bold;
+  color: rgb(94, 152, 147);
+  border-bottom: 2px solid rgb(94, 152, 147);
+}

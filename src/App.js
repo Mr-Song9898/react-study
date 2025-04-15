@@ -24,6 +24,9 @@ import ZIndex from "./components/zIndex";
 import Ref from "./components/ref";
 // import OnePx from "./components/onepx";
 import { utils } from '@iyunbao/cr-engine';
+import CssGuide from "./components/cssguide";
+import useUserInfo from './store/userInfo';
+import Dian from "./components/dian";
 
 console.log('utils ', utils);
 // function App() {
@@ -66,6 +69,15 @@ console.log('utils ', utils);
 // }
 
 function App() {
+  const { userInfo, setUserInfo } = useUserInfo();
+
+  useEffect(() => {
+    setUserInfo?.({
+      name: 'test',
+      age: 18,
+    });
+  }, [setUserInfo]);
+
   // return <TestUseReduce />
   // return <TestUseRef />
   // return <TestUseState />
@@ -81,8 +93,10 @@ function App() {
   // return <SortList />
   // return <EchartsTest />
   // return <ZIndex />
-  return <Ref />
+  // return <Ref />
   // return <OnePx />
+  // return <CssGuide />
+  return <Dian />
 }
 
 export default App;

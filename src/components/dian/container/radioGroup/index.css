@@ -1,0 +1,28 @@
+.radioGroup {
+  display: flex;
+  margin-top: 20px;
+  margin: 20px auto;
+  width: 68%;
+  height: 38px;
+  border-radius: 18px;
+  background: rgb(94, 152, 147);
+}
+
+.radio {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  border: 2px solid transparent;
+}
+
+.radioActive {
+  background: #fff;
+  font-weight: bolder;
+  color: rgb(94, 152, 147);
+  border: 2px solid rgb(94, 152, 147);
+}
